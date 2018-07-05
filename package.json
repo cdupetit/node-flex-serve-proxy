@@ -1,6 +1,6 @@
 {
   "name": "node-flex-serve-proxy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Proxy Add-On for node-flex-serve",
   "main": "index.js",
   "author": "Cyril Dupetit <cyril.dupetit@wanadoo.fr>",

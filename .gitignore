@@ -1,0 +1,7 @@
+.DS_Store
+.nyc_output
+node_modules
+coverage
+coverage.lcov
+npm-debug.log
+test/**/dist/*

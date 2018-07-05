@@ -1,0 +1,41 @@
+{
+  "name": "node-flex-serve-proxy",
+  "version": "0.0.1",
+  "description": "Proxy Add-On for node-flex-serve",
+  "main": "index.js",
+  "author": "Cyril Dupetit <cyril.dupetit@wanadoo.fr>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "beautify": "npm run lint -- --fix",
+    "lint": "eslint index.js test"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "http-proxy-middleware": "^0.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.13.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdupetit/node-flex-serve-proxy.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/cdupetit/node-flex-serve-proxy/issues"
+  },
+  "homepage": "https://github.com/cdupetit/node-flex-serve-proxy#readme"
+}
